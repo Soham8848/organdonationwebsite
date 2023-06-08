@@ -1,0 +1,113 @@
+.search-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+form{
+    padding: 37px 30px;
+   display: flex;
+}
+
+.logo{
+
+    height: 20vh;
+    width: 30vw;
+
+}
+
+.topnav{
+  font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 1.13rem;
+  line-height: 0.9;
+  overflow: hidden;
+  margin-top: 10px;
+  background-color:#ab20201f;
+  display: block;
+
+}
+.search-button button {
+
+  background-color: #0b4778;
+  
+}
+
+.nav-bar {
+  background-color: #ab20201f;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-bar a {
+  color: #0e0101;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.nav-bar a:hover {
+  color: #ab2020;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar li {
+  position: relative;
+}
+
+.nav-bar ul li a {
+  display: block;
+  padding: 10px;
+  /* background-color: #ab20201f; */
+}
+
+.nav-bar ul li a:hover {
+  background-color: #fff;
+  color: #ab2020;
+}
+
+.nav-bar ul li ul {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  display: none;
+  background-color: rgb(14, 139, 212);
+}
+
+.nav-bar ul li:hover > ul {
+  display: block;
+}
+
+.nav-bar ul li ul li a {
+  padding: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+

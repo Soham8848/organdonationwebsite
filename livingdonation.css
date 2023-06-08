@@ -1,0 +1,70 @@
+.content-living {
+    margin: 20px;
+    margin-left: 300px;
+    max-width: 800px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 30px;
+    margin-bottom: 15px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .onedonar-image{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40vh;
+      margin: 10px;
+      margin-left: 500px;
+  }
+
+  .onedonar-image2{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      margin: 10px;
+      margin-left: 300px;
+  }
